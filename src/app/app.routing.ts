@@ -51,10 +51,11 @@ export const routes: Routes = [
       {
         path: 'widgets',
         loadChildren: './views/widgets/widgets.module#WidgetsModule'
-      },
+      }
+      ,
       {
-        path: 'examples',
-        loadChildren: './views/tomi-examples/examples.module#ExamplesModule'
+        path: 'tofra',
+        loadChildren: './views/tofra/tofra.module#TofraModule'
       }
     ]
   },

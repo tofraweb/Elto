@@ -10,30 +10,6 @@ export const navigation = [
   },
   {
     title: true,
-    name: "Tomi's components"
-  },
-  {
-    name: 'Small examples',
-    url: '/examples',
-    icon: 'icon-calculator'
-  },
-  {
-    name: 'Twitter Followers',
-    url: '/theme/stam',
-    icon: 'icon-pencil'
-  },
-  {
-    name: 'Blog',
-    url: '/theme/stam',
-    icon: 'icon-puzzle'
-  },
-  {
-    name: 'Posts',
-    url: '/theme/stam',
-    icon: 'icon-pencil'
-  },
-  {
-    title: true,
     name: 'Theme'
   },
   {
@@ -49,6 +25,28 @@ export const navigation = [
   {
     title: true,
     name: 'Components'
+  },
+  {
+    name: 'Tofra',
+    url: '/tofra',
+    icon: 'icon-cursor',
+    children: [
+      {
+        name: 'Small examples',
+        url: '/tofra/small-examples',
+        icon: 'icon-cursor'
+      },
+      {
+        name: 'Posts',
+        url: '/tofra/posts',
+        icon: 'icon-cursor'
+      },
+      {
+        name: 'Twitter Followers',
+        url: '/tofra/twitter-followers',
+        icon: 'icon-cursor'
+      }
+    ]
   },
   {
     name: 'Base',
